@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple lazyload demo page">
+    <meta name="author" content="Miracle Lawrence">
+    <title>Lazyload demo</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <main>
+        <img src="https://picsum.photos/200/300/?blur" alt="" width="400" height="600">
+        <img src="https://picsum.photos/200/300/?blur=2" alt="" width="400" height="600">
+        <img src="https://picsum.photos/id/870/200/300?grayscale&blur=2" alt="" width="400" height="600">
+        <img src="https://picsum.photos/200/300.jpg" alt="" width="400" height="600">
+        <img src="https://picsum.photos/200/300.webp" alt="" width="400" height="600" loading="lazy">
+        <img src="https://picsum.photos/id/237/200/300" alt="" width="400" height="600" loading="lazy">        
+    </main>
+    
+    <footer>
+        <p id="year">
+            &copy; <span id="currentyear"></span> Miracle Lawrence, Nigeria
+            </p>
+            <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
