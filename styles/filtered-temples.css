@@ -112,7 +112,7 @@ main {
     max-width: 1500px;
     background: #f7f6fa;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(49, 31, 106, 0.08);
+    box-shadow: 0 2px 8px rgba(49, 31, 106, 0.01);
 }
 
 
@@ -170,7 +170,7 @@ figcaption {
     padding: 1rem;
     border-radius: 1rem;
     background-color: #e2e1e5;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.9);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     text-align: center;
     
 
